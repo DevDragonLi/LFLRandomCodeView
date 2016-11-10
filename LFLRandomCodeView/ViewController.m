@@ -27,7 +27,6 @@
     self.title = @"绘制图片随机验证码Demo";
     [self LayoutSubviews];
 }
-
 - (void)LayoutSubviews{
     CGFloat begainX = 100;
     _randomCodeView = [[LFLRandomCodeView alloc] initWithFrame:CGRectMake(begainX, 100, 100, 40)];
