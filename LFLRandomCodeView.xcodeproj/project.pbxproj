@@ -13,6 +13,7 @@
 		43AC61AD1DD4171B0087BA37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AC61AB1DD4171B0087BA37 /* Main.storyboard */; };
 		43AC61AF1DD4171B0087BA37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AC61AE1DD4171B0087BA37 /* Assets.xcassets */; };
 		43AC61B21DD4171B0087BA37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AC61B01DD4171B0087BA37 /* LaunchScreen.storyboard */; };
+		43AC61BB1DD417440087BA37 /* LFLRandomCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AC61BA1DD417440087BA37 /* LFLRandomCodeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		43AC61AE1DD4171B0087BA37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43AC61B11DD4171B0087BA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43AC61B31DD4171B0087BA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43AC61B91DD417440087BA37 /* LFLRandomCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLRandomCodeView.h; sourceTree = "<group>"; };
+		43AC61BA1DD417440087BA37 /* LFLRandomCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLRandomCodeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				43AC61A61DD4171B0087BA37 /* AppDelegate.m */,
 				43AC61A81DD4171B0087BA37 /* ViewController.h */,
 				43AC61A91DD4171B0087BA37 /* ViewController.m */,
+				43AC61B91DD417440087BA37 /* LFLRandomCodeView.h */,
+				43AC61BA1DD417440087BA37 /* LFLRandomCodeView.m */,
 				43AC61AB1DD4171B0087BA37 /* Main.storyboard */,
 				43AC61AE1DD4171B0087BA37 /* Assets.xcassets */,
 				43AC61B01DD4171B0087BA37 /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 				43AC61AA1DD4171B0087BA37 /* ViewController.m in Sources */,
 				43AC61A71DD4171B0087BA37 /* AppDelegate.m in Sources */,
 				43AC61A41DD4171B0087BA37 /* main.m in Sources */,
+				43AC61BB1DD417440087BA37 /* LFLRandomCodeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EHTLU8962D;
 				INFOPLIST_FILE = LFLRandomCodeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vintop.LFLRandomCodeView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EHTLU8962D;
 				INFOPLIST_FILE = LFLRandomCodeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vintop.LFLRandomCodeView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
