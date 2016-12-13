@@ -1,3 +1,4 @@
+# 后期删除,已转移到  https://github.com/DevDragonLi/iOSDevRepo  下 
 #LFLRandomCodeView 绘制图片随机验证码
 
 ## 1.效果图
