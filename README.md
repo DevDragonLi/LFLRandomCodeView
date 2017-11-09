@@ -1,11 +1,12 @@
-# 后期删除,已转移到  https://github.com/DevDragonLi/iOSDevRepo  下 
-#LFLRandomCodeView 绘制图片随机验证码
+# 已转移到  https://github.com/DevDragonLi/iOSDevRepo  下 
+
+# LFLRandomCodeView 绘制图片随机验证码
 
 ## 1.效果图
 ![效果图](./1.gif)
 
 
-##2.代码部分说明,只需要给个位置即可
+## 2.代码部分说明,只需要给个位置即可
 
 ```
 1. 一行创建
