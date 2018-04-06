@@ -1,4 +1,4 @@
-# 已转移到  https://github.com/DevDragonLi/iOSDevRepo  下 
+#  [merge repo ](https://github.com/DevDragonLi/iOSDevCode)  
 
 # LFLRandomCodeView 绘制图片随机验证码
 
